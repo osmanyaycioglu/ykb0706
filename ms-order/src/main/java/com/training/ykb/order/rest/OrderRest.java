@@ -1,4 +1,4 @@
-package com.training.ykb;
+package com.training.ykb.order.rest;
 
 import java.util.List;
 
@@ -12,6 +12,8 @@ import org.springframework.web.client.RestTemplate;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import com.netflix.discovery.shared.Application;
+import com.training.ykb.clients.account.CustomerPayment;
+import com.training.ykb.clients.account.IAccountCient;
 
 @RestController
 @RequestMapping("/order")

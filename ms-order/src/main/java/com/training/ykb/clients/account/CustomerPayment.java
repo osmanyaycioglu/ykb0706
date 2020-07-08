@@ -1,4 +1,4 @@
-package com.training.ykb;
+package com.training.ykb.clients.account;
 
 
 public class CustomerPayment {

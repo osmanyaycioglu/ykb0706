@@ -1,4 +1,4 @@
-package com.training.ykb;
+package com.training.ykb.order.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
